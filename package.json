@@ -1,0 +1,8 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mlars84/css-grid.git",
+  "author": "Matt Larson <matt.a.larson@gmail.com>",
+  "license": "MIT"
+}
