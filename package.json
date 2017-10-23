@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/mlars84/css-grid.git",
   "author": "Matt Larson <matt.a.larson@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "start": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
 }
