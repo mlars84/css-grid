@@ -1,4 +1,30 @@
+body {
+  background: lightgray;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container {
   display: grid; 
-  grid-template-columns: auto auto auto;
+  width: 500px;
+  height: 400px;
+  margin: 100px auto 0;
+  /* background: skyblue; */
+  grid-template-columns: 100px auto 300px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 1em;
+  text-align: center;
+  font-size: 24px;
+}
+
+.item {
+  border: 2px solid black;
+  background: white;
+  border-radius: 50%;
+  -webkit-transition: border-radius 1s;
+  transition: border-radius 1s;
+}
+
+.item:hover {
+  border-radius: 10%;
 }
