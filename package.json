@@ -5,7 +5,7 @@
   "repository": "https://github.com/mlars84/css-grid.git",
   "author": "Matt Larson <matt.a.larson@gmail.com>",
   "license": "MIT",
-  "start": "server.js",
+  "start": "node server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
