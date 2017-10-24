@@ -39,9 +39,20 @@ body {
   background: blueviolet;
   grid-column: 1/6;
 }
+
 a {
   color: orange;
   padding: 1em;
+}
+
+.copyright {
+  float: right;
+}
+
+hr {
+  color: black;
+  border-color: black;
+  background-color: black;
 }
 
 header {
@@ -69,6 +80,7 @@ main {
   background-size: 100%;
   color: white;
   height: 800px;
+  display: block;
 }
 
 footer {
