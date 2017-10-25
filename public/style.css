@@ -108,3 +108,19 @@ img {
   height: 25%;
   width: 25%;
 }
+
+.container2 {
+  width: 500px;
+  height: 200px;
+  margin: 100px auto 0;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 2em;
+}
+
+.more-items {
+  background: orange;
+  border: 1px solid black;
+  text-align: center;
+}
